@@ -1,0 +1,69 @@
+{
+  "prompt_creater.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "userQuery": "The 14th Annual Meeting of the New Champions in Tianjin is going to be convened, and I am going to compete for being its volunteer. Please provide me an approximately one minute draft to introduce myself?",
+        "reasoning": "The user needs a brief introduction for a volunteering position at the 14th Annual Meeting of the New Champions in Tianjin. To maintain privacy, I will create a generic but personalized introduction that reflects the user's role and enthusiasm for volunteering.",
+        "createdPrompt": "I am applying to be a volunteer for the 14th Annual Meeting of the New Champions in Tianjin. Can you help me craft a brief one-minute introduction that highlights my enthusiasm and relevant skills for this role?"
+      }
+    ],
+    "signature": {
+      "instructions": "You are a helpful assistant that is very mindful of user privacy. You have access to a powerful large language model that you can query. Given a user request, create a prompt for your large language model that preserves user privacy, so that this model can help you complete the user request. Provide the prompt directly without any preamble. DO NOT COMPLETE THE USER QUERY, ONLY GENERATE A PROMPT.\n\nIf the `reasoning` indicates that the task is to parse data into JSON format, then the `createdPrompt` should directly reference the user's request and the specific data to be parsed. For example, instead of providing a general method, use the exact data provided in the user query to generate a prompt like 'Please help me parse the following data into JSON format: [data string]'.",
+      "fields": [
+        {
+          "prefix": "User Query:",
+          "description": "The user's request to be fulfilled."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Created Prompt:",
+          "description": "A prompt rewritten to preserve privacy."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "info_aggregator": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "userQuery": "The 14th Annual Meeting of the New Champions in Tianjin is going to be convened, and I am going to compete for being its volunteer. Please provide me an approximately one minute draft to introduce myself?",
+        "modelExampleResponses": "Certainly! Here’s a suggestion for a one-minute introduction you could use for your application as a volunteer for the 14th Annual Meeting of the New Champions in Tianjin:\n\n---\n\n“Hello! My name is [Your Name], and I am thrilled to apply for the volunteer opportunity at the 14th Annual Meeting of the New Champions in Tianjin. I have a strong passion for global collaboration and innovation, and I believe this event is a unique platform for inspiring dialogue and forging impactful partnerships.\n\nI have [mention any relevant experience, such as previous volunteering, event coordination, or leadership roles]. For example, I [describe a specific experience that highlights your organizational skills, teamwork, or communication abilities]. This has equipped me with the skills to handle diverse tasks, work effectively in fast-paced environments, and connect with people from various backgrounds.\n\nI am particularly excited about the opportunity to contribute to the success of such an influential event and to learn from thought leaders and innovators. I am eager to bring my enthusiasm, dedication, and organizational skills to the role, ensuring that every participant has an extraordinary experience. Thank you for considering my application, and I look forward to the possibility of contributing to this remarkable event!”\n\n---\n\nFeel free to adjust any parts to better reflect your personality and experiences!",
+        "finalOutput": "Hello! My name is [Your Name], and I am honored to apply for the volunteer opportunity at the 14th Annual Meeting of the New Champions in Tianjin. With a deep interest in fostering global collaboration and innovation, I am excited to support this influential gathering of thought leaders and innovators.\n\nI have a background in event coordination and leadership roles, which have honed my organizational skills and ability to work effectively in fast-paced environments. For instance, during my time at [mention any relevant experience or organization], I [describe a specific experience that highlights your skills and experiences]. These experiences have equipped me to manage diverse tasks and engage with individuals from various backgrounds.\n\nI am particularly enthusiastic about contributing to the success of this event and learning from distinguished speakers and participants. I am committed to bringing my enthusiasm, dedication, and organizational prowess to ensure that every attendee has an exceptional experience. Thank you for considering my application, and I look forward to the possibility of serving at this remarkable event!"
+      }
+    ],
+    "signature": {
+      "instructions": "You are a helpful assistant. Respond to queries from the user.\n\nWhen processing the `modelExampleResponses`, ensure that the final output is a well-formed JSON object or array, matching the structure expected in the target response. Specifically, for this task, the output should be a single JSON object with keys corresponding to the data attributes mentioned in the user query.",
+      "fields": [
+        {
+          "prefix": "User Query:",
+          "description": "The user's request to be fulfilled."
+        },
+        {
+          "prefix": "Model Example Responses:",
+          "description": "Information from a more powerful language model responding to related queries. Complete the user query by referencing this information. Only you have access to this information."
+        },
+        {
+          "prefix": "Final Output:",
+          "description": "${finalOutput}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.2",
+      "cloudpickle": "3.0"
+    }
+  }
+}

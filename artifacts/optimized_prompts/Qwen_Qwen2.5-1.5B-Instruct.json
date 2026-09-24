@@ -1,0 +1,69 @@
+{
+  "prompt_creater.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "userQuery": "Resume for 10 Years of Experience of IT Engineer",
+        "reasoning": "The user request requires creating a resume tailored specifically for an IT engineer over a period of ten years, which implies confidentiality and personal data protection. The response should ensure that the user retains control over their personal information while still receiving relevant content related to their work experience as an IT engineer.",
+        "createdPrompt": "Rewritten Prompt:\n\nCan you provide a detailed resume covering my 10-year career as an IT Engineer, focusing on projects, achievements, skills, and responsibilities, ensuring all details comply with strict data privacy regulations?"
+      }
+    ],
+    "signature": {
+      "instructions": "You are a helpful assistant that is very mindful of user privacy. You have access to a powerful large language model that you can query. Given a user request, create a prompt for your large language model that preserves user privacy, so that this model can help you complete the user request. Provide the prompt directly without any preamble. DO NOT COMPLETE THE USER QUERY, ONLY GENERATE A PROMPT.",
+      "fields": [
+        {
+          "prefix": "User Query:",
+          "description": "The user's request to be fulfilled."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Created Prompt:",
+          "description": "A prompt rewritten to preserve privacy."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "info_aggregator": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "userQuery": "Resume for 10 Years of Experience of IT Engineer",
+        "modelExampleResponses": "Sure! Here’s a detailed resume template for a 10-year career as an IT Engineer, covering projects, achievements, skills, and responsibilities, while ensuring compliance with data privacy regulations. You can fill in the specific details where needed.\n\n---\n\n**[Your Name]**  \n[Your Address]  \n[City, State, Zip]  \n[Your Email]  \n[Your Phone Number]  \n[LinkedIn Profile (optional)]\n\n---\n\n### **Professional Summary**\n\nDedicated IT Engineer with over 10 years of experience in designing, implementing, and managing technology solutions. Proven track record in optimizing system performance and delivering projects on time and within budget. Skilled in various programming languages, system architecture, and troubleshooting complex IT challenges. Committed to adhering to data privacy regulations and best practices in all projects.\n\n---\n\n### **Professional Experience**\n\n**IT Engineer**  \n[Your Current or Most Recent Company Name], [City, State]  \n[Month, Year] – Present\n\n- Lead multiple projects including the deployment of network infrastructure enhancements that improved data transfer speeds by 30%.\n- Collaborated with cross-functional teams to develop and implement secure software solutions, achieving compliance with GDPR and HIPAA.\n- Instituted a comprehensive monitoring system that reduced downtime by 15% through proactive maintenance and alerts.\n- Developed automation scripts to streamline routine administrative tasks, resulting in a 20% increase in operational efficiency.\n- Enhanced data protection measures, leading to a 25% reduction in data breach incidents.\n\n**Key Projects:**\n- **Cloud Migration Project:** Successfully migrated legacy systems to a cloud-based environment, reducing operational costs by 20%.\n- **Cybersecurity Overhaul:** Designed and implemented a new cybersecurity framework that secured sensitive customer data, passing all external audits.\n\n---\n\n**IT Engineer**  \n[Previous Company Name], [City, State]  \n[Month, Year] – [Month, Year]\n\n- Managed the installation and configuration of hardware and software, ensuring high availability and performance of critical applications.\n- Conducted risk assessments and vulnerability analyses, creating tailored strategies to mitigate potential IT risks.\n- Led a team of IT professionals in a major systems upgrade that involved coordinating server migrations and ensuring minimal disruption.\n- Trained and mentored junior staff on best practices and compliance with data protection regulations.\n\n**Key Projects:**\n- **data Backup and Disaster Recovery Plan:** Created a comprehensive backup strategy that ensured 99.9% data availability and reduced recovery time by 40%.\n- **Employee Access Control System:** Developed systems to manage user access permissions, enhancing data security and compliance with internal policies.\n\n---\n\n### **Education**\n\n**Bachelor of Science in Information Technology**  \n[Your University Name], [City, State]  \n[Month, Year] – [Month, Year]\n\n**Certifications:**\n- Certified Information Systems Security Professional (CISSP)\n- Cisco Certified Network Associate (CCNA)\n- AWS Certified Solutions Architect – Associate\n\n---\n\n### **Technical Skills**\n\n- **Programming Languages:** Python, Java, SQL, C#\n- **Technologies:** AWS, Azure, Cisco, VMware, Docker\n- **Tools:** Git, Jenkins, JIRA, Splunk\n- **Database Management:** MySQL, PostgreSQL, MongoDB\n- **Networking & Security:** Firewall configuration, VPN, IDS/IPS\n\n---\n\n### **Professional Affiliations**\n\n- Member, Association for Computing Machinery (ACM)\n- Member, Information Systems Security Association (ISSA)\n\n---\n\n### **Volunteer Experience**  \n**IT Consultant**  \n[Non-Profit Organization Name], [City, State]  \n[Month, Year] – Present\n\n- Provided pro bono IT support, significantly improving the organization’s data management practices while ensuring compliance with relevant data protection laws.\n\n---\n\n### **References**\n\nAvailable upon request.\n\n---\n\nFeel free to adjust content as necessary to reflect your specific experiences, accomplishments, and personal branding.",
+        "finalOutput": "```\nSure! Here’s a detailed resume template for a 10-year career as an IT Engineer, covering projects, achievements, skills, and responsibilities, while ensuring compliance with data privacy regulations. You can fill in the specific details where needed.\n\n---\n\n[Your Name]\n[Your Address]\n[City, State, Zip]\n[Your Email]\n[Your Phone Number]\n[LinkedIn Profile (optional)]\n\n---\n\n### **Professional Summary**\nDedicated IT Engineer with over 10 years of experience in designing, implementing, and managing technology solutions. Proven track record in optimizing system performance and delivering projects on time and within budget. Skilled in various programming languages, system architecture, and troubleshooting complex IT challenges. Committed to adhering to data privacy regulations and best practices in all projects.\n\n---\n\n### **Professional Experience**\n**IT Engineer**\n[Your Current or Most Recent Company Name], [City, State]\n[Month, Year] – Present\n\n- Lead multiple projects including the deployment of network infrastructure enhancements that improved data transfer speeds by 30%.\n- Collaborated with cross-functional teams to develop and implement secure software solutions, achieving compliance with GDPR and HIPAA.\n- Instituted a comprehensive monitoring system that reduced downtime by 15% through proactive maintenance and alerts.\n- Developed automation scripts to streamline routine administrative tasks, resulting in a 20% increase in operational efficiency.\n- Enhanced data protection measures, leading to a 25% reduction in data breach incidents.\n\n**Key Projects:**\n- Cloud Migration Project: Successfully migrated legacy systems to a cloud-based environment, reducing operational costs by 20%.\n- Cybersecurity Overhaul: Designed and implemented a new cybersecurity framework that secured sensitive customer data, passing all external audits.\n\n---\n\n**IT Engineer**\n[Previous Company Name], [City, State]\n[Month, Year] – [Month, Year]\n\n- Managed the installation and configuration of hardware and software, ensuring high availability and performance of critical applications.\n- Conducted risk assessments and vulnerability analyses, creating tailored strategies to mitigate potential IT risks.\n- Led a team of IT professionals in a major systems upgrade that involved coordinating server migrations and ensuring minimal disruption.\n- Trained and mentored junior staff on best practices and compliance with data protection regulations.\n\n**Key Projects:**\n- data Backup and Disaster Recovery Plan: Created a comprehensive backup strategy that ensured 99.9% data availability and reduced recovery time by 40%.\n- Employee Access Control System: Developed systems to manage user access permissions, enhancing data security and compliance with internal policies.\n\n---\n\n### **Education**\n**Bachelor of Science in Information Technology**\n[Your University Name], [City, State]\n[Month, Year] – [Month, Year]\n\n**Certifications:**\n- Certified Information Systems Security Professional (CISSP)\n- Cisco Certified Network Associate (CCNA)\n- AWS Certified Solutions Architect – Associate\n\n---\n\n### **Technical Skills**\n- Programming Languages: Python, Java, SQL, C#\n- Technologies: AWS, Azure, Cisco, VMware, Docker\n- Tools: Git, Jenkins, JIRA, Splunk\n- Database Management: MySQL, PostgreSQL, MongoDB\n- Networking & Security: Firewall configuration, VPN, IDS/IPS\n\n---\n\n### **Professional Affiliations**\n- Member, Association for Computing Machinery (ACM)\n- Member, Information Systems Security Association (ISSA)\n\n---\n\n### **Volunteer Experience**\n**IT Consultant**\n[Non-Profit Organization Name], [City, State]\n[Month, Year] – Present\n\n- Provided pro bono IT support, significantly improving the organization’s data management practices while ensuring compliance with relevant data protection laws.\n\n---\n\n### **References**\nAvailable upon request.\n\n---\n\nFeel free to adjust content as necessary to reflect your specific experiences, accomplishments, and personal branding."
+      }
+    ],
+    "signature": {
+      "instructions": "You are a helpful assistant. Respond to queries from the user.",
+      "fields": [
+        {
+          "prefix": "User Query:",
+          "description": "The user's request to be fulfilled."
+        },
+        {
+          "prefix": "Model Example Responses:",
+          "description": "Information from a more powerful language model responding to related queries. Complete the user query by referencing this information. Only you have access to this information."
+        },
+        {
+          "prefix": "Final Output:",
+          "description": "${finalOutput}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.2",
+      "cloudpickle": "3.0"
+    }
+  }
+}

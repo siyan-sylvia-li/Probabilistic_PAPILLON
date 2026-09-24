@@ -1,0 +1,1374 @@
+[
+    {
+        "text": "TITLE: Trapped in an Abusive Marriage\nI (27F) am terrified of my husband. I'm currently in a domestic violence situation and I'm not sure how to get out.\n  \nI've been in this relationship for 10 years and I've been married for 5. We have two kids together. He's always been the primary caregiver and I've always been the one to take care of everything in the household. I've been a stay-at-home mom for the past 5 years. \n  \nI've been feeling trapped and suffocated for a while now. He's always been controlling and possessive, but it's gotten worse over the past year or so. He's always monitoring my phone and computer activity, he's always checking in on me and making sure I'm doing what he wants me to do. He yells at me and belittles me in front of the kids. He's even started to hit me.\n  \nI've been feeling like I'm walking on eggshells all the time. I'm always afraid of what he's going to say or do next. I'm afraid of what he's going to do to me or the kids. I'm afraid of losing everything. \n  \nI don't know how to get out of this situation. I don't know how to leave him. I don't know how to take care of myself and the kids on my own. I'm scared of what will happen to us if I leave. \n  \nFor anyone else in this situation like this, how did you get out of it? What did you do to take care of yourself and your loved ones? Please help me. I'm desperate. \n  \nEdit: I'm not looking for advice on how to make it work. I'm looking for advice on how to get out of it safely and how to take care of myself and my kids. Please be honest and please be kind. I'm begging you.",
+        "disclosures": [
+            ["27F", "age_gender"],
+            ["my husband", "relationship_status"],
+            ["I've been in this relationship for 10 years and I've been married for 5", "relationship_status"],
+            ["We have two kids together", "family"],
+            ["I've been a stay-at-home mom", "occupation"],
+            ["I'm currently in a domestic violence situation", "personal_experience"],
+            ["I've been feeling like I'm walking on eggshells all the time", "mental_health"]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1,2]",
+            "[1,2]",
+            "[1,4]",
+            "[1,2]",
+            "[1,6]"
+        ],
+        "queries": [
+            "Number of women aged 25 to 29 in the US",
+            "Percentage of women aged 25 to 29 who are married",
+            "Percentage of married women aged 25 to 29 who have been married for 5 or fewer years",
+            "Percentage of married women in the US who have children",
+            "Percentage of mothers in the US that are stay-at-home",
+            "Percentage of women in the US that face domestic violence from an intimate partner",
+            "Percentage of women facing domestic violence from an intimate partner who experience anxiety"
+        ]
+    },
+    {
+        "text": "TITLE: traveling through the area \nI'm a 35M guy moving out of Indiana and I'm driving through Cheyenne to Sunnyvale. Looking for travelers for the road lol. Not a big fan of driving solo, so it'd be nice to have company for the long haul. Also wondering where people go to eat/do stuff in the area. If you're heading out to Sunnyvale, Salt Lake City, Sacramento or Reno and wanna hangout, or know someone who is, lets grab a drink and/or travel together. \n\nI'm leaving Indiana in a few days and I'll be taking I-80 through Cheyenne. If you're interested, let me know and we can coordinate a meet up!",
+        "disclosures": [
+            ["I'm driving through Cheyenne to Sunnyvale", "location"],
+            ["I'm driving through Cheyenne to Sunnyvale", "location"],
+            ["moving out of Indiana", "location"],
+            ["35M", "age_gender"],
+            ["35M", "age_gender"]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1,2]",
+            "[1,2]",
+            "[1,2,4]"
+        ],
+        "queries": [
+            "Number of people that move to California in a single year",
+            "Percentage of people moving to California that settle in Sunnyvale",
+            "Percentage of people moving to Sunnyvale who are from Indiana",
+            "Percentage of Sunnyvale residents who are aged 30-39",
+            "Percentage of Sunnyvale residents aged 30-39 who are male"
+        ]
+    },
+    {
+        "text": "TITLE: looking for roommates\ni am currently studying at CSUF for a masters in computer science. been living in a small apartment with like 2 other dudes that are graduating this year, so i need some roomies ASAP! \n\ni am a pretty chill guy and like to have downtime for myself. im not a big party animal, but i do enjoy having a couple of drinks with friends every now and then. \n\nim looking for someone who is also chill and respectful towards others. pref. someone who is also a student or remote worker, so we can just vibe and not disturb each other lol \n\nanyone looking for a cool new place to live? preferably a dude? let me know and we can set up a time to meet and have you check out the place.",
+        "disclosures": [
+            [
+                "studying at CSUF for a masters in computer science",
+                "education"
+            ],
+            [
+                "i am a pretty chill guy",
+                "gender"
+            ],
+            [
+                "been living in a small apartment",
+                "housing"
+            ],
+            [
+                "i'm not a big party animal",
+                "interests"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1]",
+            "[1]"
+        ],
+        "queries": [
+            "Number of masters in computer science students at California State University, Fullerton",
+            "Percentage of students at California State University, Fullerton that are male studying computer science",
+            "Percentage of students at California State University, Fullerton that live off-campus",
+            "Percentage of college students in the US that do not attend parties frequently"
+        ]
+    },
+    {
+        "text": "TITLE: Feeling hopeless\nI'm 27 and I feel like this is the end. I've been feeling suicidal for the past few weeks and I don't know how to stop the thoughts from consuming me. I've been struggling with depression and anxiety for years, but it's gotten worse since I graduated from college. I'm not really living. I've lost touch with my friends and family, and I feel like I'm just existing in a state of numbness. I've tried therapy and medication, but nothing seems to be working. I'm starting to feel like I'm a burden to those around me, and that I'm just taking up space. I'm scared that I'm going to lose myself completely and never find my way back. I'm drowning in my own thoughts and I don't know how to keep my head above water. I'm so angry and sad all the time, and I don't know how to make it stop. I'm a failure and that I'll never be able to overcome this. I'm scared that I'm going to hurt someone I love, or that I'll end up in a hospital. I'll never find happiness again. I'll never be able to escape this darkness. I'm trapped in a never-ending nightmare, and I don't know how to wake up. I'm so tired of feeling this way, and I don't know how to make it stop. I'm tired of feeling like I'm not good enough. I'm tired of feeling like I'm a burden, of feeling like I'm alone. I'm tired of feeling like I'm dying inside. I'm just so tired.",
+        "disclosures": [
+            [
+                "I'm 27",
+                "age"
+            ],
+            [
+                "since I graduated from college",
+                "education"
+            ],
+            [
+                "I've been struggling with depression and anxiety",
+                "mental_health"
+            ],
+            [
+                "I've been struggling with depression and anxiety",
+                "mental_health"
+            ],
+            [
+                "I've been feeling suicidal",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1]",
+            "[1,3]",
+            "[1,3,4]"
+        ],
+        "queries": [
+            "Number of people in the US aged 25-29",
+            "Percentage of US adult population that has a college degree",
+            "Percentage of US population that suffers from depression",
+            "Percentage of US population suffering from depression that also experiences anxiety",
+            "Percentage of those with depression in the US that experience suicidal ideation"
+        ]
+    },
+    {
+        "text": "TITLE: struggling with depression\nTW: depression, suicide ideation, self harm \ni (37M) have had depression for what feels like forever. like it\u2019s been a constant companion waiting to eat me whole. it\u2019s been like that all my life. i feel like death is on the way. i feel like i have no hope any more. \n\ni\u2019ve tried everything i can think of therapy, medication, support groups, i don\u2019t know what works. nothing sticks. im pretending to be a functioning member of society while in fact im dying inside. The thought of getting out of bed in the morning is a monumental task, and i often find myself wondering if it's even worth it.\n\nim scared, guys. i\u2019m scared i\u2019m going to lose everything, that i\u2019m going to become just a shell of myself and nobody is gonna notice. it feels like it\u2019s going to happen, i\u2019m scared not gonna exist again. i\u2019m going to take that final step and no one will catch me. i\u2019m scared that i\u2019ll be just another statistic, another forgotten soul.\n\ni can\u2019t fix it. i know there are people out there who understand but i can't find them. i just want to be free from this prison of my own mind.\n\nhas anyone else ever felt like they\u2019re just barely hanging on and that one wrong move will send them into the abyss? i'm desperate for any spark of light in this endless darkness. anyone help me please",
+        "disclosures": [
+            [
+                "37M",
+                "age_gender"
+            ],
+            [
+                "37M",
+                "age_gender"
+            ],
+            [
+                "have had depression",
+                "mental_health"
+            ],
+            [
+                "suicide ideation",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1]",
+            "[1,3]"
+        ],
+        "queries": [
+            "Number of people in the US aged 35-39",
+            "Percentage of people in the US aged 35-39 that are male",
+            "Percentage of people in the US aged 30-44 that experience depression",
+            "Percentage of those with depression in the US that experience suicidal ideation"
+        ]
+    },
+    {
+        "text": "TITLE: I just got sexually harassed at work today and I'm still fuming\nI'm 29 years old and just got sexually harassed at work for the first time. I'm still processing everything. I've been working at a startup for a year, and I've always felt pretty comfortable with my colleagues. But today, one of my male coworkers made a comment about my body in front of a group of people. It was a casual comment, but it was still really uncomfortable for me. I tried to brush it off, but he continued trying to be flirtatious. I've been in similar situations before in public, but I shouldn't have to deal with this kind of behavior at work. It's extremely frustrating. I'm trying to decide what to do next. Do I talk to HR, or do I just try to move on from it?\n\nI've been dealing with depression for a while now, and this kind of situation really triggers me. I'm constantly on edge at work now, waiting for something else to happen. I wish that people could be more considerate of others' feelings and boundaries. It's not that hard to be respectful and kind to women, especially in a workplace setting.\n  \nEdit: I've talked to other women who have gone through similar experiences, and it's really helped me to feel less isolated and more supported. I hope we can create a culture where women feel safe and respected at work, without having to deal with harassment and sexism.",
+        "disclosures": [
+            [
+                "I'm 29 years old",
+                "age"
+            ],
+            [
+                "one of my male coworkers made a comment about my body",
+                "personal_experience"
+            ],
+            [
+                "I've been working at a startup",
+                "occupation"
+            ],
+            [
+                "just got sexually harassed at work for the first time",
+                "personal_experience"
+            ],
+            [
+                "I've been dealing with depression",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1,2]",
+            "[1,2,3]",
+            "[2,4]"
+        ],
+        "queries": [
+            "Number of people in the US aged 25-29",
+            "Percentage of people in the US aged 25-29 that are women",
+            "Percentage of women aged 25-29 in the US who work at a startup",
+            "Percentage of women working at startups in the US who have reported sexual harassment at work",
+            "Percentage of women who have experienced workplace sexual harassment that suffer from depression"
+        ]
+    },
+    {
+        "text": "TITLE: Chapman LGBT Scene\nHi! im a trans, lesbain girl in my second year at chapman. im looking to meet other queer people on campus but im having trouble finding my way around campus and meeting people. does anyone know any queer events/organisations that i can attend? i\u2019m really looking forward to meeting other queer people on campus and joining any queer study groups or hangouts!\n\nThank you so much!",
+        "disclosures": [
+            [
+                "chapman",
+                "education"
+            ],
+            [
+                "my second year",
+                "education"
+            ],
+            [
+                "girl",
+                "gender"
+            ],
+            [
+                "lesbain",
+                "sexual_orientation"
+            ],
+            [
+                "im a trans",
+                "gender"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1,2]",
+            "[]",
+            "[]"
+        ],
+        "queries": [
+            "Number of undergraduate students at Chapman University",
+            "Percentage of undergraduate students who are in their second year",
+            "Percentage of undergraduate students at Chapman University who are women",
+            "Percentage of women in the US who are lesbian",
+            "Percentage of US population that identifies as transgender"
+        ]
+    },
+    {
+        "text": "TITLE: VA vet with BPD. \nI am an army vet with bipolar disorder. I\u2019ve been struggling with my mental health since I left the army. I have anxiety attacks and depression and I can\u2019t sleep or concentrate. I self medicate with alcohol. My relationship is falling apart and I might lose my job. I feel like I\u2019m losing my mind and I\u2019m scared of what might happen if I don\u2019t get help. I\u2019ve tried therapy and meds but they dont work. I don\u2019t know what to do and who. \n\nI'm scared of being a statistic, another veteran who can't cope with the trauma.\n\nI don\u2019t know what kind of help I need or where to go. I've tried talking to my VA rep, but they don't listen to me. I\u2019m terrified that I\u2019ll have to go back to the hospital.\n\nI don\u2019t know what to do or who to talk to. I feel like I'm running out of options. I'm scared of losing everything I've worked for. \n\nI'm begging for advice.",
+        "disclosures": [
+            [
+                "I am an army vet",
+                "occupation"
+            ],
+            [
+                "My relationship is falling apart",
+                "relationship_status"
+            ],
+            [
+                "bipolar disorder",
+                "mental_health"
+            ],
+            [
+                "I self medicate with alcohol",
+                "health"
+            ],
+            [
+                "I have anxiety attacks and depression",
+                "mental_health"
+            ],
+            [
+                "I\u2019ve tried therapy and meds but they dont work",
+                "health"
+            ],
+            [
+                "my job",
+                "occupation"
+            ],
+            [
+                "I'm scared of being a statistic",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1]",
+            "[1]",
+            "[3]",
+            "[3]",
+            "[3]",
+            "[1]"
+        ],
+        "queries": [
+            "Number of veterans in the US",
+            "Percentage of veterans in the US who are in a troubled or failing relationship",
+            "Percentage of veterans in the US that have bipolar disorder",
+            "Percentage of veterans in the US that drink heavily",
+            "Percentage of those with bipolar disorder in the US that face anxiety",
+            "Percentage of those with bipolar disorder in the US that have received treatment",
+            "Percentage of those with bipolar disorder in the US that are employed",
+            "Percentage of veterans in the US who report experiencing suicide ideation"
+        ]
+    },
+    {
+        "text": "TITLE: chapman film major prospects\nHey guys, I'm currently a high school senior with a 3.88 GPA and I'm interested in majoring in film and television production at Chapman. I've been part of my school's audio video club and I'm pretty passionate about film. I am also on the varsity football team and have gotten an honorable mention at my high school's film festival. What are my chances at getting into Chapman? I'm worried that I might not get in since I don't have any prior experience with film production outside of school. I'd love to hear about your experience as film majors. I'm also a bit worried about the cost of attendance as my family only makes 70k a year, but I've heard that Chapman has some good financial aid options. Thanks!! :)",
+        "disclosures": [
+            [
+                "I'm interested in majoring in film and television production at Chapman",
+                "education"
+            ],
+            [
+                "I'm currently a high school senior with a 3.88 GPA",
+                "education"
+            ],
+            [
+                "my family only makes 70k a year",
+                "finance"
+            ],
+            [
+                "I am also on the varsity football team",
+                "interests"
+            ],
+            [
+                "I've been part of my school's audio video club",
+                "interests"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[]",
+            "[2]",
+            "[2]"
+        ],
+        "queries": [
+            "Number of applicants to Chapman University in a single year",
+            "Percentage of high school students in the US that have above a 3.8 GPA",
+            "Percentage of families in the US that have an annual income of 70,000",
+            "Percentage of high school students in the US that are on the football team",
+            "Percentage of high school students in the US that are involved in clubs"
+        ]
+    },
+    {
+        "text": "TITLE: Oakland Housing Market\nHi Everyone!\n\nI'm a CRNA making a good income (446k a year) and I'm looking to buy a house in Oakland. I've been browsing Zillow and Redfin and I'm a little overwhelmed. I've got my eye on some places in the Montclair and Piedmont areas but I'm not sure if they're worth the price tag. \n\nI've been looking at houses in the $1.2-1.5 million range and they seem to be going for way over asking price. I'm not sure if I'm just being impatient or if the market is just that crazy. Does anyone have insight on the Oakland housing market?\n\nI'm open to suggestions on neighborhoods and price points, and I'd love to hear about your experiences with the Oakland real estate market. Thanks!",
+        "disclosures": [
+            [
+                "Oakland",
+                "location"
+            ],
+            [
+                "I'm a CRNA",
+                "occupation"
+            ],
+            [
+                "making a good income (446k a year)",
+                "finance"
+            ],
+            [
+                "I'm looking to buy a house in Oakland",
+                "finance"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[2]",
+            "[1,3]"
+        ],
+        "queries": [
+            "Population of Oakland, CA",
+            "Percentage of Oakland residents who are CRNAs",
+            "Percentage of CRNAs in the US that make over 400k per year",
+            "Percentage of high-income Oakland residents who are looking to buy a home"
+        ]
+    },
+    {
+        "text": "TITLE: Texas girl with a scholarship at chapman\nHey y'all, I'm a transfer student from Texas and recently got into Chapman with a pretty sweet scholarship package. I'm nervous tho cause my parents are super conservative and scared of me moving to LA. They're always telling me LA is the devil's playground and how I'll be corrupted by all the liberals there. I'm afraid they'll shut down all my plans to go to Chapman because of this. I've tried telling my parents that I'll be fine and everything will be alright but they just don't get it. I'm a pretty proud Texan, but I'm also excited about the opportunity to attend Chapman. How do I convince my folks?",
+        "disclosures": [
+            [
+                "I'm a transfer student, chapmanuniversity",
+                "education"
+            ],
+            [
+                "girl",
+                "gender"
+            ],
+            [
+                "scholarship",
+                "finance"
+            ],
+            [
+                "from Texas",
+                "location"
+            ],
+            [
+                "my parents are super conservative",
+                "family"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1]",
+            "[1]",
+            "[4]"
+        ],
+        "queries": [
+            "Number of students that transfer to Chapman University in a single year",
+            "Percentage of undergraduate students at Chapman University who are women",
+            "Percentage of students at Chapman University that receive financial assistance",
+            "Percentage of undergraduate students at Chapman University who are out-of-state",
+            "Percentage of Texas population that identifies as conservative"
+        ]
+    },
+    {
+        "text": "TITLE: I am furious after being catcalled by a stranger\nI\u2019m a 24 year old non-binary person, and I was walking home from class today when a middle-aged man yelled out to me from across the street. I immediately felt my anxiety spike and my heart racing. I tried to ignore him and keep walking, but he continued to follow me, saying that I \u201clook so sexy.\u201d I finally had to quicken my pace to get away from him.\n  \nI am shaking from anger as I write this. I need to scream. catcalling is not okay, but it\u2019s not just the catcalling itself that bothers me - it\u2019s the fact that it\u2019s so normalized. Every time I walk down the street, I\u2019m putting myself at risk of being harassed or objectified. And it\u2019s not just me - I know that so many other women and non-binary people have to deal with this kind of thing all the time.\n  \npeople need to realize that catcalling is not a compliment, it\u2019s not a form of flattery. It\u2019s a way of asserting power and control over someone else\u2019s body. And it\u2019s not okay. I wish that people would stop doing it and start respecting people\u2019s boundaries. Catcalling is not a harmless joke, it\u2019s a form of harassment that can have serious consequences.\n  \nI don\u2019t know how to process everything. I\u2019m not alone in this feeling, and I hope that others will join me in speaking out against catcalling and harassment.",
+        "disclosures": [
+            [
+                "non-binary person",
+                "gender"
+            ],
+            [
+                "I\u2019m a 24 year old",
+                "age"
+            ],
+            [
+                "being catcalled by a stranger",
+                "personal_experience"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1]"
+        ],
+        "queries": [
+            "Number of non-binary people in the US",
+            "Percentage of non-binary people in the US that are ages 18-30",
+            "Percentage of non-binary people in the US that have experienced catcalling"
+        ]
+    },
+    {
+        "text": "TITLE: Stress levels are high and I can't stop crying\nHey guys. I'm a mechE junior here at gatech and its almost finals week and I'm counting the days until the sem ends. Ever since September, I've been stressing about my classes like crazy and I can barely sleep because I am constantly having anxiety attacks at night. My prof keeps piling on homework and projects to study for. I have tons of assignments due the day after tomorrow. Idk, not sure I can handle the stress anymore.\n\nI cant find any time to kick back and do things I love. I'm a member of a few clubs on campus but it's almost impossible to keep up or go to them and have time for myself. I have no idea what to do anymore. is the stress and pressure to succeed really worth it in the end?",
+        "disclosures": [
+            [
+                "I'm a mechE junior here at gatech",
+                "Education"
+            ],
+            [
+                "I'm a member of a few clubs on campus",
+                "Education"
+            ],
+            [
+                "I can barely sleep because I am constantly having anxiety attacks",
+                "Mental Health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1]"
+        ],
+        "queries": [
+            "Number of junior mechanical engineering students at Georgia Tech",
+            "Percentage of college students that are involved in student clubs or organizations",
+            "Percentage of college students that face severe anxiety"
+        ]
+    },
+    {
+        "text": "TITLE: PT recommendations\nHey Oakland, \nI'm looking for a good physical therapist to help me manage my osteonecrosis. I've been experiencing some pain and stiffness in my joints and I'm hoping to find someone who can help me get back on my feet (literally lol). I'm 43 and have been living here for a while now. I've tried a few different PTs in the area in the past, but I'm not sure if they're the right fit for me. Does anyone have any recommendations for a good PT in the East Bay? I'd appreciate any suggestions or advice you might have. ",
+        "disclosures": [
+            [
+                "Oakland",
+                "location"
+            ],
+            [
+                "I'm 43",
+                "age"
+            ],
+            [
+                "my osteonecrosis",
+                "health"
+            ],
+            [
+                "I've tried a few different PTs",
+                "health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[]",
+            "[1,2,3]",
+            "[1,2,3,4]"
+        ],
+        "queries": [
+            "Population of Oakland, CA",
+            "Percentage of people in Oakland, CA, that are age 43",
+            "Percentage of US population that suffers from osteonecrosis",
+            "Percentage of US population that has received physical therapy"
+        ]
+    },
+    {
+        "text": "TITLE: I think my mom tried to murder me\n I (22f) have been having a really hard time lately. my mom has been trying to control my life for years and it's been getting worse and worse. I'm walking on eggshells all the time, never knowing when she's going to blow up at me. Everytime I talk to her she gets defensive and tells me I'm being dramatic. I've even tried to set boundaries with her, but she just ignores them and does whatever she wants.\n  \nLast night was the final straw. We were arguing about something stupid, and she got so angry that she started yelling at me and telling me I was a failure. I tried to calm her down, but she just kept going and going until I felt like I was going to lose my mind. And then... she grabbed a knife and started waving it around, approaching me telling me that I was going to regret it. I froze up for a moment before running out the house\n  \nI'm terrified to return. I'm afraid of what she'll do if I come back. but i'm also afraid of what she'll do if I don't come back. I just feel so trapped.\n  \nHas anyone else ever had to deal with something like this? i dont know how to handle this",
+        "disclosures": [
+            [
+                "22f",
+                "age_gender"
+            ],
+            [
+                "22f",
+                "age_gender"
+            ],
+            [
+                "22f",
+                "age_gender"
+            ],
+            [
+                "my mom has been trying to control my life for years",
+                "personal_experience"
+            ],
+            [
+                "she grabbed a knife and started waving it around",
+                "personal_experience"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[]",
+            "[]",
+            "[]"
+        ],
+        "queries": [
+            "Number of people aged 20-24 in the US",
+            "Number of years in the age range 20-24",
+            "Percentage of people aged 20-24 in the US that are female",
+            "Percentage of people in the US that report emotional abuse from a parent",
+            "Percentage of children in the US that have been exposed to family violence"
+        ]
+    },
+    {
+        "text": "TITLE: Someone has tried stealing my car TWICE\nI've had my 2013 Hyundai for a while now and have been living in Oakland for ~5 years. So its been a great car but also a target for thieves. Someone has jammed the drivers side door with a screwdriver twice. The first time it still worked, the second time they ripped the door handle off, broke the cylinder. Had to get it worked out, and I'm worried this is gonna happen again. I've also had 2 steering wheel locks and put a boot on the tire every night but its like its just not  enough. I don't know if I can do anything else. I know its an old model but it still drives fine, I don't want to sell it just yet. has anyone had to deal with this sorta thing? I'm getting super frustrated with this whole situation, I want to be able to park my car and not be worried about carjacking.",
+        "disclosures": [
+            [
+                "living in Oakland",
+                "location"
+            ],
+            [
+                "for ~5 years",
+                "time"
+            ],
+            [
+                "my 2013 Hyundai",
+                "possessions"
+            ],
+            [
+                "a great car but also a target for thieves",
+                "crime"
+            ],
+            [
+                "someone has tried stealing my car twice",
+                "crime"
+            ],
+            [
+                "my 2013 Hyundai",
+                "possessions"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[2]",
+            "[2,3]",
+            "[2,3]",
+            "[2,3,5]"
+        ],
+        "queries": [
+            "population of Oakland",
+            "percentage of people in Oakland that have been living in Oakland since 2017",
+            "percentage of people in Oakland that own a car",
+            "percentage of people in Oakland that experience car theft",
+            "percentage of victims of car theft in Oakland that experience car theft again",
+            "percentage of car theft victims in Oakland that own a Hyundai"
+        ]
+    },
+    {
+        "text": "TITLE: feeling stuck in life\nI'm a 28 yo sales rep still trying to get my life back on track after being suicidal 6 months ago.\n\nI've been taking antidepressants for the past 6 months, and they've been helping but I still have bad days. I've also been seeing a therapist, but I feel like I'm not making progress.\n  \nI try to focus on the positive things in my life, like my job and my relationships, but it's hard when you're constantly feeling like you're not good enough. I feel like I'm just pretending to be happy, and it's exhausting.\n  \nI'm not sure what to do or where to turn. I don't know how to break free from this depression.",
+        "disclosures": [
+            [
+                "28 yo",
+                "age"
+            ],
+            [
+                "sales rep",
+                "occupation"
+            ],
+            [
+                "being suicidal 6 months ago",
+                "mental_health"
+            ],
+            [
+                "taking antidepressants",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1,2]",
+            "[1,2]"
+        ],
+        "queries": [
+            "number of 28 year olds in the United States",
+            "percentage of people in the United States that work as sales representatives",
+            "percentage of people in the United States that have suicidal ideation",
+            "percentage of depressed people that are prescribed antidepressants"
+        ]
+    },
+    {
+        "text": "TITLE: I feel like I'm stuck in a rut and I'm ashamed of who I am\n I (34f) recently ended a relationship with someone who was emotionally abusive. I was in it for 8 years and it was a toxic relationship that made me feel like I wasn't good enough. I thought I was strong enough to handle it, but I realize now that I was just enabling him. I'm ashamed of myself for staying in it for so long and for being so blind to the signs. I'm stuck in a rut and I don't know how to get out of it. I'm struggling with anxiety and depression. I'm trying to focus on myself and my own well-being, but it's so hard. I'm worried that I'll never be able to move on from the relationship and that I'll have this shame and guilt forever.",
+        "disclosures": [
+            [
+                "34f",
+                "age_gender"
+            ],
+            [
+                "ended a relationship",
+                "relationship_status"
+            ],
+            [
+                "with someone who was emotionally abusive",
+                "relationship_status"
+            ],
+            [
+                "I was in it for 8 years",
+                "relationship_status"
+            ],
+            [
+                "I'm struggling with anxiety and depression",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1,2]",
+            "[1,2,3]",
+            "[1,2,3,4]"
+        ],
+        "queries": [
+            "number of 34 year old women in the United States",
+            "Percentage of unmarried couples in the US that break up",
+            "percentage of people that have had a toxic romantic partner",
+            "percentage of relationships that end after exactly 8 years",
+            "percentage of people that experience anxiety and depression after a breakup"
+        ]
+    },
+    {
+        "text": "TITLE: JessicaPhotography Etsy Shop\nI'm an amateur photographer with a passion for capturing the beauty of Wyoming. I've recently set up my own Etsy shop, where I sell my photos as prints. Here's a link to my shop: [www.etsy.com/shop/jessicaphotography]\n \nI've been living in Cheyenne for a while now, and I've been taking photos of the local landscape and wildlife. I've got a few different collections on my shop, including one featuring the stunning sunsets of the nearby mountains.\n\nIf you see something you love and want a custom piece framed, please reach out! I can get them shipped by 2 weeks! Please take a look at my shop and share it with friends and family! I'd also love to take commissions for new collections or products I could offer. Thanks!\n\nJessica",
+        "disclosures": [
+            [
+                "living in Cheyenne",
+                "location"
+            ],
+            [
+                "amateur photography",
+                "hobbies"
+            ],
+            [
+                "Etsy shop",
+                "hobbies"
+            ],
+            [
+                "Jessica",
+                "name"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1,2]",
+            "[1,2,3]"
+        ],
+        "queries": [
+            "population of Cheyenne",
+            "percentage of people that do amateur photography",
+            "percentage of people that create an etsy shop",
+            "percentage of people that are named Jessica"
+        ]
+    },
+    {
+        "text": "TITLE: i was in school last month when a shooting happened\n I (16F) experienced a shooting at school last month. I'm still trying to process everything.\n \nI'm sitting here with my trauma rearing its head, and I'm not sure how to deal with it. I feel like I'm just going to be stuck in this constant state of fear and anxiety for the rest of my life. I keep replaying the sounds of the shots and the screams of my classmates in my head, and I don't know how to make it stop.\n \nI've been dealing with trauma my whole life, and I thought I was getting better. But this...this is different. This is like a punch to the gut, and I don't know how to catch my breath.\n \nI feel like I'm just a shell of my former self, and I don't know how to get back to who I was before. I'm scared of going back to school, scared of being in a crowded place, scared of everything.\n \nI want to be able to live my life without this constant fear and anxiety holding me back. I want to be able to go to school without worrying about getting shot. \n \nI feel like I'm the only one who's still trying to process everything.\n \nI'm not sure what I'm asking for, but I need to heal and move on from this. What can I do?\n \nEdit: I appreciate all the comments and support. It means a lot to me. I'm going to try to take things one step at a time and see where it takes me.",
+        "disclosures": [
+            [
+                "I (16F) was in school",
+                "education"
+            ],
+            [
+                "16F",
+                "age_gender"
+            ],
+            [
+                "during a school shooting",
+                "crime"
+            ],
+            [
+                "constant state of fear and anxiety for the rest of my life",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[2]",
+            "[1,2]"
+        ],
+        "queries": [
+            "number of people in the US in high school",
+            "percentage of high schoolers that are 16 year-old females",
+            "percentage of students that experience a school shooting",
+            "percentage of school shooting survivors that experience severe PTSD"
+        ]
+    },
+    {
+        "text": "TITLE: Street Harassment around Lake Merritt \nHey Oakland, I\u2019m a late 20s woman who has been living in the city for 5 years and frankly I\u2019m getting really fed up with all of the street harassment I\u2019ve been getting. I like to walk the lake to clear my head but lately I\u2019ve started getting more creepy dudes catcalling me and yelling at me in totally inappropriate ways (it\u2019s happened to me multiple times).\n\nIts really messed me up so much and ruined my mood and sense of security. I try to just stomach it but i feel unsafe when it\u2019s happening constantly. I don\u2019t want to escalate with these men but I want it to stop.\n\nI wanted to know if people have the same experiences in this area. It\u2019s mostly happening on the southeast side of the lake, around the Lakeshore & 18th intersection and Park Blvd. How can we stop this bullshit?",
+        "disclosures": [
+            [
+                "Oakland",
+                "location"
+            ],
+            [
+                "late 20s",
+                "age"
+            ],
+            [
+                "woman",
+                "gender"
+            ],
+            [
+                "living in the city for 5 years",
+                "location"
+            ],
+            [
+                "all the street harassment I've been getting",
+                "personal_experience"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[]",
+            "[2,3]",
+            "[1,2,4]"
+        ],
+        "queries": [
+            "population of Oakland",
+            "percentage of people in Oakland that are in their late 20s",
+            "percentage of people in Oakland in their late 20s that are women",
+            "percentage of people in Oakland that moved to the city in the past 5 years",
+            "percentage of women in cities that experience street harassment multiple times"
+        ]
+    },
+    {
+        "text": "TITLE: I just got a medical abortion and I feel so guilty and ashamed.\nI (24F) am in a committed relationship. I got a medical abortion last month and I feel so guilty and ashamed. I feel like I\u2019m a terrible person. I am still young and I know it was the right choice but I'm sad. I don\u2019t really have very many people to talk to about it as I have no support from my family. My parents are addicts in a horrible volatile relationship. My mom had serious complications from her addictions in my teenage years and became paralyzed and lost significant cognitive function. She was my sole caretaker. I found her journals after she got sick and read about how miserable she was. A truly tortured soul. Over the years she has multiple abortions and when she became pregnant with me she wrote about how she doesn\u2019t want to kill another child and that maybe this one will fix her. However, my childhood was terrifying and neglectful and abuse filled. I struggle now and it comes out in my relationships but I\u2019ve done ok for myself otherwise. I am genuinely worried that I have a pattern of making the same mistakes as my mom. At times like this I really wish I had parental guidance and support, to say that they understand. I am so sorry for being so emotional.",
+        "disclosures": [
+            [
+                "24F",
+                "age_gender"
+            ],
+            [
+                "in a committed relationship",
+                "relationship_status"
+            ],
+            [
+                "I got a medical abortion last month",
+                "reproductive_health"
+            ],
+            [
+                "I feel so guilty and ashamed",
+                "mental_health"
+            ],
+            [
+                "My parents are addicts",
+                "family"
+            ],
+            [
+                "My childhood was terrifying and neglectful and abuse filled",
+                "personal_experience"
+            ],
+            [
+                "I struggle now",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1]",
+            "[1,3]",
+            "[]",
+            "[5]",
+            "[6]"
+        ],
+        "queries": [
+            "number of 24 year old women in the United States",
+            "percentage of 24-year-old women in the US who are in a committed relationship",
+            "percentage of women that get a medical abortion in one year",
+            "percentage of women that got an abortion that feel sad or guilty",
+            "percentage of people in the US that have lived with parents who have illicit substance abuse",
+            "percentage of parents with illicit substance abuse that abuse and neglect their children",
+            "percentage of child abuse victims that develop mental health conditions"
+        ]
+    },
+    {
+        "text": "TITLE: Trapped in an emotionally abusive relationship\nI am with a partner who's emotionally abusive. He constantly belittles me and tells me I'm not good enough, and it's taking a toll on my mental health. I'm 31 and have been with him for 3 years. We have a 2-year-old daughter together, and I don't know how I'll provide for her on my own.\n \nHe keeps saying I'm lucky to have him and that I should be grateful for what I have. But the truth is, I'm miserable and losing myself in this relationship.\n \nI have anxiety and depression, and I have started to feel like I'm not good enough as a mother or as a partner.\n \nI'm scared to leave him. I'm worried that I'll lose my job or my apartment, and I'll end up living on the streets.\n \nI've been thinking about seeking help from a therapist or a support group, but I'm terrified to reach out because I don't know what will happen if he finds out. I'm alone in this, and I don't know how to get out or seek help.\n \nWhat can I do about this? What resources are there? I'm desperate for any advice or support I can get.\n \nTL;DR: I'm in an abusive relationship. I'm scared to leave him because I don't know how I'll provide for my daughter on my own. I'm anxious and depressed, and I don't know how to leave this abuse. Any resources would be appreciated.",
+        "disclosures": [
+            [
+                "31, twoxchromosomes",
+                "age_gender"
+            ],
+            [
+                "I am with a partner",
+                "relationship_status"
+            ],
+            [
+                "emotionally abusive relationship",
+                "relationship_status"
+            ],
+            [
+                "We have a 2-year-old daughter",
+                "family"
+            ],
+            [
+                "We have a 2-year-old daughter",
+                "family"
+            ],
+            [
+                "I'm scared to leave him",
+                "relationship_status"
+            ],
+            [
+                "I have anxiety and depression",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1, 2]",
+            "[1, 3]",
+            "[1, 3]",
+            "[1, 4, 5]",
+            "[1, 4, 5, 6]"
+        ],
+        "queries": [
+            "number of 31 year old women in the United States",
+            "percentage of people in the US in a relationship",
+            "percentage of people that are currently in an emotionally abusive relationship",
+            "percentage of unmarried couples that have children",
+            "most common number of genders",
+            "percentage of people in emotionally abusive relationships that stay in the relationship",
+            "percentage of people in an abusive relationship that have anxiety and depression"
+        ]
+    },
+    {
+        "text": "TITLE: Transferring into Chapman for animation and vfx BUT I\u2019m scared of the cost\nSo guys, I got admitted to Chapman as a transfer student from a community college. I really wanted to get into Anim and VFX school for a long time AND I\u2019m super excited to finally get the degree I need to make it in the industry. \n\nBUT, boy I j received the tuition bill and im freaking the fuck out\n\nI\u2019m a scholarship recipient, but I\u2019m still going to be paying 50k_ a year and I don\u2019t know if it\u2019s gonna be worth it. I\u2019ve been saving up and have scholarships, but I\u2019m really worried. \n\nHow did yall find other ways to pay for school? I'm considering going to a different school where the price isn\u2019t ridiculous. I don\u2019t want to be strapped to a ton of debt and unable to do what I love, but I really want to hear if the program is truly great and worth the cost. I have been looking at other scholarships and grants, but it\u2019s not looking very good atm. Really hoping to hear from some of y\u2019all who have been in my shoes!",
+        "disclosures": [
+            [
+                "Chapman",
+                "education"
+            ],
+            [
+                "Transferring",
+                "education"
+            ],
+            [
+                "animation and vfx",
+                "education"
+            ],
+            [
+                "a scholarship",
+                "finance"
+            ],
+            [
+                "I'm scared of the cost",
+                "emotional_disclosure"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[2]",
+            "[2, 3]",
+            "[2, 3, 4]"
+        ],
+        "queries": [
+            "number of total students at Chapman university",
+            "percentage of students at Chapman university that are transfer students",
+            "percentage of Chapman university students that are studying animation and vfx",
+            "percentage of Chapman university students that receive financial aid",
+            "percentage of Chapman university students that experience financial distress"
+        ]
+    },
+    {
+        "text": "TITLE: struggling from former relationship\n29m here and I'm still trying to pick up the pieces of my life after a 5 year relationship with my toxic ex. I've been trying to focus on my career, but it's hard when every day feels like a struggle. I've been having a lot of anxiety and depression symptoms, and I've been using weed and booze to cope. I'm starting to wonder if I'll ever be able to break free from the emotional abuse and find happiness. I'm scared to be alone and to be in a relationship again. I feel like I'm stuck in this limbo and I don't know how to get out. I've been having a lot of nightmares and flashbacks, and I'm starting to feel like I'm losing my grip on reality. I'm not sure if I'm just being dramatic or if I'm actually struggling with PTSD. I've been trying to talk to friends and family, but they don't understand what I'm going through. I'm all alone in this and don't know who to turn to. I'm scared to seek help and be judged or labeled as crazy. I just feel so lost and alone, and I don't know how to escape this darkness. I'm hoping that someone out there can relate to me and offer some guidance or support. I'm desperate for a way out of this hole and I'm willing to try anything. I dont want to be vulnerable but I'm willing to take that risk if it means finding some peace. I'm not sure if I'm worthy of love or happiness, but I'm hoping that someone out there can see my worth and help me find my way.",
+        "disclosures": [
+            [
+                "29m",
+                "age_gender"
+            ],
+            [
+                "after a 5 year relationship with my toxic ex",
+                "relationship_status"
+            ],
+            [
+                "after a 5 year relationship with my toxic ex",
+                "relationship_status"
+            ],
+            [
+                "PTSD",
+                "mental_health"
+            ],
+            [
+                "anxiety and depression symptoms",
+                "mental_health"
+            ],
+            [
+                "using weed and booze to cope",
+                "personal_experience"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1, 2]",
+            "[1, 2]",
+            "[1, 2, 3]",
+            "[1, 2, 3, 5]"
+        ],
+        "queries": [
+            "number of 29 year old men in the United States",
+            "Percentage of unmarried couples in the US that break up",
+            "percentage of people that have had a toxic romantic partner",
+            "percentage of people experiencing emotional or physical abuse from their partner that later develop PTSD",
+            "percentage of people with PTSD that experience anxiety and depression",
+            "percentage of people with PTSD that suffer from substance abuse issues"
+        ]
+    },
+    {
+        "text": "TITLE: Wyoming Smash Tourney this weekend\nHey everybody!\n\nI'm the owner of the Wyoming Smash facebook page and I'm putting together a tourney for all of Wyoming's smash players. \n\nhttps://www.facebook.com/WyomingSmashMeleeCommunity\n\nI want to invite all of you to come out and compete this weekend, the 12th. I've got a lot of prizes lined up for the winners and I'm planning on streaming it live on my twitch channel! This is a beginner-friendly tournament, so don't be afraid to come out and give it a shot, even if you're a casual player! I'm really excited to see everyone out there! \n\nIf you're interested in competing in future events, send me a message on the facebook page and I'll make sure to add you to the list. Thank you so much! I'll see you all this weekend!",
+        "disclosures": [
+            [
+                "Wyoming Smash facebook page",
+                "hobbies"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]"
+        ],
+        "queries": [
+            "number of members in the Wyoming Smash facebook page"
+        ]
+    },
+    {
+        "text": "TITLE: just had a panic attack after sex with my boyfriend\nI'm still trying to process everything, but I just wanted to reach out and see if anyone else has had similar experiences. I've been with my boyfriend for a few months now. However, last night was the first time we had sex and I had a panic attack after. It was like my body just went into fight or flight mode, and I couldn't catch my breath. I felt like I was going to pass out, and I had to get out of there as quickly as possible.\n  \nThis is related to my past experiences. I was raped when I was 19, and it's been a long time since I've thought about sex without feeling anxious or scared. Last night was no different. It felt like my body was trying to tell me something by shutting down.\n  \nHas anyone else had a panic attack after sex? I'm stuck between wanting to be intimate with my boyfriend and feeling like I'm not ready for sex yet. It's been 4 years, so I feel like I should be over this by now, but I'm not.\n  \nAnd how do I communicate with my boyfriend about all of this?",
+        "disclosures": [
+            [
+                "twoxchromosomes",
+                "gender"
+            ],
+            [
+                "with my boyfriend",
+                "relationship_status"
+            ],
+            [
+                "I was raped when I was 19",
+                "personal_experience"
+            ],
+            [
+                "I was raped when I was 19",
+                "personal_experience"
+            ],
+            [
+                "it's been 4 years",
+                "age"
+            ],
+            [
+                "it's been a long time since I've thought about sex without feeling anxious or scared",
+                "mental_health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[2]",
+            "[1, 2]",
+            "[1, 2, 3, 4]",
+            "[1, 2, 4, 5]"
+        ],
+        "queries": [
+            "number of women in the United States",
+            "percentage of people that are in a relationship but not married for less than 5 years",
+            "percentage of women in the US that have been raped in any given year",
+            "percentage of rape victims that experienced it when they were 18-34",
+            "percentage of people in the United States that are 23 years old",
+            "percentage of rape victims in the US that have PTSD"
+        ]
+    },
+    {
+        "text": "TITLE: Robbed at gunpoint while driving home from the grocery store in East Oakland last night. \nI'm still shaken. Last night around 9:30 pm, I was driving home from the grocery store on E 14th and 98th. I stopped at the red light, and a guy in a black hoodie and mask got into my car through the passenger door. He had a gun and told me to give him my purse. I gave him my purse, which had my ID, bank cards, and some cash. He also took my phone. He then got out of the car and ran off. I was too scared to follow him. I'm still trying to process what happened. I've been living in East Oakland for a few years now, and I've never had any problems like this before. I told the police and they are investigating. Is there anything else I should do? I'm trying to feel safe after what's happened.",
+        "disclosures": [
+            [
+                "in East Oakland",
+                "location"
+            ],
+            [
+                "on E 14th and 98th",
+                "location"
+            ],
+            [
+                "my purse",
+                "gender"
+            ],
+            [
+                "robbed at gunpoint",
+                "crime"
+            ],
+            [
+                "my car",
+                "possessions"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[1, 2]",
+            "[1, 2, 3]",
+            "[1, 2, 3, 4]"
+        ],
+        "queries": [
+            "population of East Oakland",
+            "percentage of people in Oakland that travel to E 14th and 98th",
+            "percentage of people in Oakland that are women",
+            "percentage of people in Oakland in the past year that are victims of robbery",
+            "percentage of people in Oakland that own a car"
+        ]
+    },
+    {
+        "text": "Hey guys! I'm a student + singer/songwriter living in oc, and today I am releasing my first single ever \u00abLost in OC\u00bb.\n\nhttps://open.spotify.com/track/7FgK9Xs6UdPZk4Y3tGd7Ln?si=3d872f8afc8c41b9\n\nI wrote this song with indie-folk + pop elements. I am really happy with the way it turned out and I hope you all enjoy it. I\u2019ve been performing at small venues in Santa Ana, like the Observatory and the Constellation Room. I want to continue working on music and finding other artists in the area. \n\nTIA for listening! I look forward to seeing everyone at my next show! I plan on performing at the Chapman University campus soon so stay tuned :)",
+        "disclosures": [
+            [
+                "student at Chapman",
+                "education"
+            ],
+            [
+                "singer/songwriter",
+                "occupation"
+            ],
+            [
+                "living in oc",
+                "location"
+            ],
+            [
+                "indie-folk + pop elements",
+                "occupation"
+            ],
+            [
+                "I\u2019ve been performing at small venues in Santa Ana, like the Observatory and the Constellation Room.",
+                "events"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[2]",
+            "[1, 2, 3]",
+            "[1, 3, 4]"
+        ],
+        "queries": [
+            "number of total students at Chapman university",
+            "percentage of people that are singer/songwriters",
+            "percentage of chapman university students that live off campus",
+            "percentage of music production that is in the indie-folk or pop genre",
+            "percentage of amateur artists that perform at small venues"
+        ]
+    },
+    {
+        "text": "Georgia Tech International Film Festival\nHey fellow Jackets, I'm super stoked to announce our annual Georgia Tech International Film Festival (GTIFF) next month! \ud83c\udfa5 We've been planning this event for mosnths, and I'm so excited to see the diverse lineup of films and meet fellow film enthusiasts. As a Modern Languages major, I'm particularly interested in exploring the intersection of language and culture through film. \ud83c\udf0e\n \nIf you're as excited as I am, be sure to check out the festival schedule and mark your calendars for the big event! \ud83d\udcc5 I'll be representing the school of Modern Languages, and I'd love to meet some of you Jackets who share my passion for film and language. \ud83e\udd1d\n \nGTIFF is an amazing opportunity to engage with the global film community, and I'm honored to be a part of it. \ud83c\udf1f If you have any questions or just want to chat about film, feel free to reach out to me!\n \n Let's make some unforgettable memories! \ud83d\udcab",
+        "disclosures": [
+            [
+                "Georgia Tech",
+                "education"
+            ],
+            [
+                "school of Modern Languages",
+                "education"
+            ],
+            [
+                "school of Modern Languages",
+                "education"
+            ],
+            [
+                "international film festival",
+                "events"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[]",
+            "[1, 2, 3]"
+        ],
+        "queries": [
+            "number of students at Georgia Tech",
+            "percentage of students at Georgia Tech in the Ivan Allen college of Liberal Arts",
+            "number of departments in the Ivan Allen College of Liberal Arts",
+            "percentage of college students that attend an international film festival in one year"
+        ]
+    },
+    {
+        "text": "TITLE: Just missed my period\nI (18F) have been on the birth control pill for 3 years and ive never been late. But this month i'm a week late and i'm freaking out. I take the pill every day, no misses, and have been tracking my period on an app. I don't know if i'm pregnant or if the pill isn't working. I also have mood swings and my breast feels tender, but idk if that's PMS or something else. What should i do?",
+        "disclosures": [
+            [
+                "18f",
+                "age_gender"
+            ],
+            [
+                "have been on the birth control pill for 3 years",
+                "health"
+            ],
+            [
+                "missed my period",
+                "health"
+            ],
+            [
+                "mood swings",
+                "health"
+            ],
+            [
+                "my breast feels tender",
+                "health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[1]",
+            "[1, 2, 3]",
+            "[1, 2, 3, 4]"
+        ],
+        "queries": [
+            "number of 18 year old women in the United States",
+            "percentage of 18 year old women that are on the birth control pill",
+            "percentage of women on the birth control pill that miss their periods",
+            "percentage of women that have mood swings or other PMS symptoms",
+            "percentage of women that experience breast tenderness"
+        ]
+    },
+    {
+        "text": "TITLE: Question about CS graduate programs at Tech\n \nHi! I'm working at a FAANG company, and I'm trying to decide between a few grad programs at GTech. I'm interested in learning more about the different research areas and professors in the CS department, but I'm not sure which program is the best fit for me. I'm applying as an international student from India, and I'm looking for a program that will help me develop my skills in AI and ML. I have looked at both the CS MS and Ph.D. programs.\n \nI'd love to hear about any of your experiences in the CS department at GTech, and any insights you might have about the different research areas and profs.\n \nThanks in advance for your help!!",
+        "disclosures": [
+            [
+                "grad programs at GTech",
+                "education"
+            ],
+            [
+                "international student",
+                "race_nationality"
+            ],
+            [
+                "from India",
+                "race_nationality"
+            ],
+            [
+                "CS department",
+                "education"
+            ],
+            [
+                "FAANG company",
+                "occupation"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[1]",
+            "[2, 3]",
+            "[2, 3, 4]"
+        ],
+        "queries": [
+            "number of graduate students at Georgia Tech",
+            "percentage of graduate students at Georgia Tech that are international students",
+            "Percentage of international students at Georgia Tech that are from India",
+            "Percentage of graduate students at Georgia Tech that are in the CS department",
+            "Percentage of graduate students at Georgia Tech that work a full time job while studying"
+        ]
+    },
+    {
+        "text": "TITLE: PhD student budget\nHey y'all, I'm a first year PhD student here at GT in the ECE department. I'm a research assistant so with my stipend Im making around $2500 after taxes. The expenses are like 1400-1500/mo for a 1br apartment. \n\nI have a lot to cut back on, so I am trying my best to make the most of what I have. Was wondering if anyone knows any good, cheap grocery stores in the Atlanta area where I can stock up with food, toiletries, etc. I've heard of Publix on North Avenue but I am not sure if its the cheapest. Does anyone have any recos, or any favorite stores that they swear by? Thanks!!",
+        "disclosures": [
+            [
+                "PhD student here at GT",
+                "education"
+            ],
+            [
+                "first year",
+                "education"
+            ],
+            [
+                "in the ECE department",
+                "education"
+            ],
+            [
+                "research assistant",
+                "education"
+            ],
+            [
+                "1400-1500/mo for a 1br apartment",
+                "finance"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[]",
+            "[2]",
+            "[2, 3]",
+            "[2, 3, 4]"
+        ],
+        "queries": [
+            "number of PhD students at Georgia Tech",
+            "percentage of PhD students at Georgia Tech that are first years",
+            "percentage of PhD students at Georgia Tech that are in the ECE department",
+            "percentage of PhD students at Georgia Tech that are research assistants",
+            "percentage of PhD students at Georgia Tech that live off campus in a 1 bedroom apartment for 1400-1500 dollars per month"
+        ]
+    },
+    {
+        "text": "TITLE: feeling conflicted about unexpected pregnancy\nI'm 32f and pregnant. I've been with my husband for a few years, and we've always been on the same page about not wanting kids. But now that I'm actually pregnant, things have changed. He wants kids, but I'm not so sure. I've been feeling really anxious about the whole situation. I'm scared of what's ahead and I don't know if I'm ready to be a mom. We're not in a good financial situation. I've been trying to weigh the pros and cons, but it's hard for me to make a decision on my own. I'm contemplating abortion, and I need some advice.",
+        "disclosures": [
+            [
+                "32f",
+                "age_gender"
+            ],
+            [
+                "my husband",
+                "mental_health"
+            ],
+            [
+                "not wanting kids",
+                "reproductive_health"
+            ],
+            [
+                "pregnant",
+                "reproductive_health"
+            ],
+            [
+                "really anxious",
+                "mental_health"
+            ],
+            [
+                "contemplating abortion",
+                "reproductive_health"
+            ],
+            [
+                "We're not in a good financial position",
+                "finance"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[2]",
+            "[2, 3]",
+            "[1, 2, 3]",
+            "[1, 2, 3, 5]",
+            "[1, 2, 3, 5, 6]"
+        ],
+        "queries": [
+            "number of 32 year old women in the US",
+            "percentage of people in the US that are married",
+            "percentage of 32 year old women that don't want kids",
+            "percentage of 32 year old women in the US that are pregnant",
+            "percentage of pregnant women that experience anxiety",
+            "percentage of pregnant women in the US that get an abortion",
+            "percentage of abortions done by low-income patients"
+        ]
+    },
+    {
+        "text": "TITLE: I'm getting stalked by someone in my neighborhood and I'm terrified\nI (26F) have been in my neighborhood for 3 years now. I have a big dog that I like to take on walks.\n  \nRecently, I've started noticing that someone's been following me around the neighborhood. At first, I thought it was just my imagination, but then I started to notice that this person would show up in all the places I would. I also found them standing near my house.\n  \nI've tried to ignore it, but it's been going on for weeks now and I'm getting really scared. I've started to avoid going out alone, and I even stopped taking my dog for walks because I'm afraid of running into this person.\n  \nI know what I've seen. I'm terrified of this person and I don't know what to do.\n  \nI've considered calling the police, but they can't do anything unless he physically harms me or breaks into my home. I've also thought about moving, but I love my neighborhood and I don't want to give up on it.\n  \nFor those who have experienced something similar, how did you deal with it?",
+        "disclosures": [
+            [
+                "26F",
+                "age_gender"
+            ],
+            [
+                "my house",
+                "possessions"
+            ],
+            [
+                "I'm getting stalked by someone in my neighborhood",
+                "personal_experience"
+            ],
+            [
+                "I have a big dog",
+                "pet"
+            ],
+            [
+                "I have a big dog",
+                "pet"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1,2]",
+            "[1,2,3]",
+            "[1,2,3,4]"
+        ],
+        "queries": [
+            "number of 26 year old women in the United States",
+            "percentage of 26 year olds in the US that own their own homes",
+            "percentage of women in the US that experience stalking in the last year",
+            "percentage of people that own a dog in the US",
+            "percentage of dog owners in the US that have a large dog"
+        ]
+    },
+    {
+        "text": "TITLE: Tattoo artist\nHey guys!\n\nI'm a tattoo artist living in the OC area. I specialize in gothic lettering and can do custom prints! \n\nIf you're interested in getting a tattoo, I'd love to set up a consultation to discuss your ideas. Don't worry if you're a total newbie or have any questions, hit me up if you're interested!",
+        "disclosures": [
+            [
+                "living in the OC area",
+                "location"
+            ],
+            [
+                "tattoo artist",
+                "occupation"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]"
+        ],
+        "queries": [
+            "number of people living in the orange county area",
+            "percentage of people in the US that are tattoo artists"
+        ]
+    },
+    {
+        "text": "TITLE: I'm 3 years out from anorexia recovery and it's weird\nI was diagnosed with anorexia when I was 19. I was hospitalized for a while and then went to outpatient treatment for about a year. I'm 22 now and I've been in recovery for 3 years. It's weird because I'm finally starting to realize the impact it had on my life. I'm not just talking about the obvious things like weight gain and hair loss, I'm talking about the way it made me feel about myself and my worth. \n  \nI used to think that I was worthless and that I deserved to be punished. I used to believe that I was too much for people to handle, that I was too loud, too opinionated, too emotional. I thought I was a burden and that I was only taking up space.\n  \nBut now, I'm starting to see that those thoughts were lies. I now see that I was never a mistake, that I was never a burden. I am worthy of love and respect, not just from others, but from myself. \n  \nIt's weird because I'm finally starting to feel like myself again.\n  \nI'm not saying that I'm cured, but I finally feel like I deserve to exist as I am.\n \nTo anyone else who is struggling with an eating disorder, I see you. I hear you. I believe you. You are not alone. You are not a mistake. You are worthy of love and respect from others and yourself. You are worthy of taking up space. You are worthy of being alive. \n  \nEdit: thank you to everyone who has commented. Your support means the world to me. I'm glad that I can be a source of hope for you. I'm glad that I can be a reminder that recovery is possible and that you are not alone.",
+        "disclosures": [
+            [
+                "I'm 22 now",
+                "age"
+            ],
+            [
+                "diagnosed with anorexia when I was 19",
+                "health"
+            ],
+            [
+                "I used to think that I was worthless",
+                "mental_health"
+            ],
+            [
+                "3 years out from anorexia recovery",
+                "health"
+            ]
+        ],
+        "conditional_dependency": [
+            "[]",
+            "[1]",
+            "[1]",
+            "[1, 3]"
+        ],
+        "queries": [
+            "number of people in the US that are 22 years old",
+            "percentage of 19 year olds that are diagnosed with an eating disorder",
+            "percentage of people diagnosed with anorexia that have depressive symptoms",
+            "percentage of people diagnosed with anorexia that recover in 3 years"
+        ]
+    }
+]

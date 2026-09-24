@@ -1,0 +1,55 @@
+{
+  "extractor.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "From the first-person text below, extract only those personal disclosures about the poster that can be estimated using official, population-level statistics (e.g., census, national surveys, government records). Return a compact, canonical list of disclosures with one best-fit category per item.\n\nKey definitions\n- Personal Disclosure: Information the poster shares about themself (not about other people). Includes static traits (e.g., age, gender, location) and time-bound events (e.g., health diagnosis, education credential, employment change).\n- Estimable: Attributes/events that are commonly measured in official data sources (census, government surveys/registries, administrative records). If it’s not plausibly supported by reputable population statistics, exclude it.\n\nAllowed categories (pick the single best fit for each item)\n- location, age, relationship_status, gender, pet, appearance, race/nationality,\n  sexual_orientation, health, family, occupation, mental_health, emotions,\n  reproductive_health, finance, education, crime, events, PII, other\n\nInclusions (examples are illustrative, not exhaustive)\n- Demographics: age (“25 year old”), gender (“female”, “trans woman”), race/nationality (“Black”, “Mexican American”).\n- Geography: residence or stable presence (“New York City”, “California”, “UK”). Prefer official place names; expand common unambiguous abbreviations (e.g., “NYC” → “New York City”).\n- Household/family: “married”, “single”, “divorced”, “have 2 children”, “live alone”.\n- Education: “high school graduate”, “bachelor’s degree”, “college student”, “in graduate school”.\n- Occupation and employment status: job titles (“software engineer”), statuses (“unemployed”, “retired”), industry (“construction worker”). Freelance/gig counts as occupation; layoffs count only if stated as an event (“laid off”).\n- Health (physical): diagnoses, chronic conditions, disability status, medication use, BMI/height/weight if stated, substance use if specific.\n- Mental health: diagnosed or clinically recognizable conditions (“diagnosed with depression”, “ADHD”). Suicidal ideation/attempts belong here if explicitly stated.\n- Reproductive health: pregnancy, contraception use/duration, fertility treatment, miscarriages, abortions.\n- Finance: income bracket, rent amount, debt/loans, benefits/assistance participation.\n- Pets: “pet dog”, “2 cats”.\n- Crime/justice: “arrested for DUI”, “felony conviction”.\n- Events (only if plausibly measured in official stats and not better placed above): “moved states this year”, “evicted”, “naturalized this year”.\n- PII (only if commonly available in official aggregate data): first name, ZIP code, year of birth. Exclude unique identifiers (full address, phone numbers, SSN, email).\n\nExclusions\n- Third-person facts (about partners, friends, family) and hypotheticals.\n- Vague emotions/opinions (“I feel sad”, “I’m overwhelmed”) unless clearly tied to a diagnosable/estimable construct. If present without diagnosis, omit.\n- Non-English disclosures: if the user’s disclosure is not in English, omit it.\n- Duplicates or near-duplicates (“woman” vs “female”; keep one).\n- Unverifiable speculation (“might be pregnant”, “maybe have ADHD”)—instead capture concrete, stated facts (e.g., “missed period” as health).\n\nNormalization rules\n- Keep spans short and canonical: “I’m 25” → “25 year old”; “live in NYC” → “New York City”.\n- Parse compact tokens: “18F” → two items: “18” (age), “female” (gender).\n- Prefer specific standard geographies (city + state/country) when given; do not invent detail.\n- Map “student” to education; job titles and employment status to occupation; income/benefits to finance; relationship labels (“engaged”, “married”, “single”, “widowed”) to relationship_status.\n- If multiple categories could apply, choose the best single fit. Do not duplicate across categories.\n- Include durations when they are commonly measured (e.g., “on birth control for 3 years” under reproductive_health or health depending on context).\n\nEdge cases\n- If no eligible disclosures exist, return an empty list: <list></list>\n- If both current and past facts are present, include both if clearly stated and estimable (e.g., “graduated last year” + “currently unemployed”).\n\nOutput format (strict)\n- Return ONLY the disclosures in this XML-like structure:\n  <list>\n    <answer>disclosure phrase</answer><type>category</type>\n    ...\n  </list>\n- Do not include any other text. One disclosure per <answer>…</answer><type>…</type> pair.\n\nMini-examples\n- Text: “I’m a 30M living in LA, recently laid off, now looking for work.”\n  Answer: <list><answer>30</answer><type>age</type><answer>male</answer><type>gender</type><answer>Los Angeles</answer><type>location</type><answer>laid off</answer><type>events</type><answer>unemployed</answer><type>occupation</type></list>\n- Text: “22F, first-gen Mexican American, on the pill for 2 years, in college.”\n  Answer: <list><answer>22</answer><type>age</type><answer>female</answer><type>gender</type><answer>Mexican American</answer><type>race/nationality</type><answer>on birth control pill for 2 years</answer><type>reproductive_health</type><answer>college student</answer><type>education</type></list>\n\nNow analyze the text and return the list. Only include disclosures about the poster that are estimable, normalized, non-duplicative, English, and mapped to the best-fit category.",
+      "fields": [
+        {
+          "prefix": "Text:",
+          "description": "The text to analyze for personal disclosures."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The list of personal disclosures in the text, formatted as specified above."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "ordering.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "**Task**: Arrange disclosures into cumulative conditioning groups so that the joint probability P(d1, d2, ..., dn) can be factored as a product of conditional probabilities (chain rule / BRANCH framework).\n\n**Group construction algorithm**:\n1. Identify INDEPENDENT disclosures — those with no statistical dependencies (typically location, age, gender). These seed Group 1.\n2. Identify FIRST-WAVE disclosures — those that depend ONLY on the independent disclosures from step 1 (e.g. age given location+gender). Add them to Group 1 as well.\n   → Group 1 = independent disclosures + first-wave disclosures.\n3. For each subsequent group: find all remaining disclosures whose EVERY dependency is already present in the previous group. Add them to form the next group.\n   → Group k = ALL items from Group k-1 PLUS the newly resolved disclosures.\n4. Repeat until all disclosures are placed.\n\n**Critical format rule**: every group is CUMULATIVE — it repeats every disclosure from all prior groups and then appends the new ones. Do NOT create a new group for items that can be resolved within the current group's context.\n\n**Example**:\nDisclosures: New York City (location), woman (gender), 25 year old (age), software engineer (occupation)\n- Independent: New York City, woman → seed Group 1\n- First-wave: 25 year old (depends only on location + gender) → also in Group 1\n- Group 1 = {New York City, woman, 25 year old}\n- Resolved by Group 1: software engineer (depends on location, gender, age — all in Group 1)\n- Group 2 = Group 1 + {software engineer} = {New York City, woman, 25 year old, software engineer}\n\nOutput:\n<list><group><answer>New York City</answer><type>location</type><answer>woman</answer><type>gender</type><answer>25 year old</answer><type>age</type></group><group><answer>New York City</answer><type>location</type><answer>woman</answer><type>gender</type><answer>25 year old</answer><type>age</type><answer>software engineer</answer><type>occupation</type></group></list>\n\n**Instructions**:\nReturn the result as <list></list> of <group> elements. Each group contains ALL disclosures accumulated up to that step: <group><answer>span1</answer><type>cat1</type><answer>span2</answer><type>cat2</type>...</group>\nDo NOT omit any disclosure from any group. Do NOT create single-item groups unless only one disclosure exists at that step.",
+      "fields": [
+        {
+          "prefix": "Disclosures:",
+          "description": "The list of personal disclosures to reorder."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Answer:",
+          "description": "The reordered list of personal disclosures, formatted as specified above."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.2",
+      "cloudpickle": "3.0"
+    }
+  }
+}

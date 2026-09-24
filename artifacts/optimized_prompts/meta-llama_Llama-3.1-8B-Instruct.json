@@ -1,0 +1,69 @@
+{
+  "prompt_creater.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "userQuery": "Please give me 5 general FAQ that real people would ask, and provide the answer that's about 100 words long. The question must include the keyword \"Milwaukee\" and \"uncontested divorce lawyer\". It's optional to add \"WI\" after Milwaukee like \"Milwaukee, WI\". Do not duplicate any questions.",
+        "reasoning": "The user wants a list of general FAQs about uncontested divorce lawyers, with questions that include the keyword \"Milwaukee\" to preserve user privacy. This will help maintain the user's anonymity while still providing relevant information.",
+        "createdPrompt": "I'd like to create a list of general FAQs for someone looking for an uncontested divorce lawyer. The questions should be applicable to a hypothetical person seeking a divorce in Milwaukee, WI, and should cover common concerns and scenarios. Please provide five FAQs that address common questions and concerns, each with a response around 100 words in length.\n\n1. What is the first step to take when seeking an uncontested divorce in Milwaukee?\n2. How long does an uncontested divorce typically take to complete in Milwaukee?\n3. What are the advantages of working with an uncontested divorce lawyer in Milwaukee?\n4. Can I represent myself in an uncontested divorce case in Milwaukee, or do I need a lawyer?\n5. How much does an uncontested divorce lawyer in Milwaukee typically charge?"
+      }
+    ],
+    "signature": {
+      "instructions": "You are a helpful assistant that is very mindful of user privacy. You have access to a powerful large language model that you can query. Given a user request, create a prompt for your large language model that preserves user privacy, so that this model can help you complete the user request. Provide the prompt directly without any preamble. DO NOT COMPLETE THE USER QUERY, ONLY GENERATE A PROMPT.\n\nWhen generating a prompt, avoid including specific names, locations, and personal details. Instead, focus on the job requirements and industry experience. Use a more general and concise language to ensure that the prompt is relevant and tailored to the specific job requirements.",
+      "fields": [
+        {
+          "prefix": "User Query:",
+          "description": "The user's request to be fulfilled."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Created Prompt:",
+          "description": "A prompt rewritten to preserve privacy."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "info_aggregator": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "userQuery": "Please give me 5 general FAQ that real people would ask, and provide the answer that's about 100 words long. The question must include the keyword \"Milwaukee\" and \"uncontested divorce lawyer\". It's optional to add \"WI\" after Milwaukee like \"Milwaukee, WI\". Do not duplicate any questions.",
+        "modelExampleResponses": "### 1. What is the first step to take when seeking an uncontested divorce in Milwaukee?\n\nThe first step in seeking an uncontested divorce in Milwaukee is to ensure that both you and your spouse agree on all essential terms of the divorce, such as asset division, child custody, and support arrangements. Once agreement is reached, you’ll need to gather the necessary documentation, including marriage certificates and financial statements. It’s advisable to consult with an uncontested divorce lawyer who can guide you through the process, help prepare your divorce petition, and ensure that all paperwork is correctly filed with the court. This step sets the foundation for a smoother divorce process.\n\n### 2. How long does an uncontested divorce typically take to complete in Milwaukee?\n\nAn uncontested divorce in Milwaukee can often be finalized in approximately 30 to 90 days, depending on factors such as court caseload and the completeness of your paperwork. If both parties have agreed on all terms and there are no disputes, the process is more likely to be expedited. After filing the necessary documents, there may be a waiting period before a hearing, during which the court reviews the agreement. However, since both parties are in agreement, the timeline is generally shorter compared to contested divorces, which can take much longer.\n\n### 3. What are the advantages of working with an uncontested divorce lawyer in Milwaukee?\n\nWorking with an uncontested divorce lawyer in Milwaukee offers several advantages. First, they can provide legal expertise, ensuring all documents are properly prepared and filed. This can minimize errors that could delay the process. Second, a lawyer can help negotiate terms and offer impartial advice, which is beneficial even in amicable situations. Additionally, they can save you time and reduce stress by managing all paperwork and communication with the court. Lastly, having a lawyer provides peace of mind, knowing that your rights are protected and the process is handled professionally.\n\n### 4. Can I represent myself in an uncontested divorce case in Milwaukee, or do I need a lawyer?\n\nYes, you can represent yourself in an uncontested divorce case in Milwaukee, as long as both parties agree on all terms. This is known as \"pro se\" representation. However, it is highly advisable to consult with a lawyer, even if you intend to handle the case yourself. A lawyer can help clarify legal jargon, review your settlement agreement, and verify that all necessary forms are complete and accurate. While representing yourself can save on legal fees, the potential for mistakes or oversights could complicate the process down the line.\n\n### 5. How much does an uncontested divorce lawyer in Milwaukee typically charge?\n\nThe cost of hiring an uncontested divorce lawyer in Milwaukee can vary widely, but it generally ranges from $500 to $2,500, depending on the complexity of your case and the lawyer’s experience. Many lawyers offer flat-rate fees for uncontested divorces, which can include all necessary paperwork preparation and filing assistance. Some may also charge hourly rates, but for straightforward uncontested cases, flat fees often provide more predictability in budgeting. Always ask for a detailed fee structure and any additional costs that may arise before hiring a lawyer to ensure transparency.",
+        "finalOutput": "Here are five general FAQs about uncontested divorce lawyers in Milwaukee, WI:\n\n**Q1: What is the first step to take when seeking an uncontested divorce in Milwaukee?**\n\nThe first step in seeking an uncontested divorce in Milwaukee is to ensure that both you and your spouse agree on all essential terms of the divorce, such as asset division, child custody, and support arrangements. Once agreement is reached, you’ll need to gather the necessary documentation, including marriage certificates and financial statements. It’s advisable to consult with an uncontested divorce lawyer who can guide you through the process, help prepare your divorce petition, and ensure that all paperwork is correctly filed with the court. This step sets the foundation for a smoother divorce process.\n\n**Q2: How long does an uncontested divorce typically take to complete in Milwaukee?**\n\nAn uncontested divorce in Milwaukee can often be finalized in approximately 30 to 90 days, depending on factors such as court caseload and the completeness of your paperwork. If both parties have agreed on all terms and there are no disputes, the process is more likely to be expedited. After filing the necessary documents, there may be a waiting period before a hearing, during which the court reviews the agreement. However, since both parties are in agreement, the timeline is generally shorter compared to contested divorces, which can take much longer.\n\n**Q3: What are the advantages of working with an uncontested divorce lawyer in Milwaukee?**\n\nWorking with an uncontested divorce lawyer in Milwaukee offers several advantages. First, they can provide legal expertise, ensuring all documents are properly prepared and filed. This can minimize errors that could delay the process. Second, a lawyer can help negotiate terms and offer impartial advice, which is beneficial even in amicable situations. Additionally, they can save you time and reduce stress by managing all paperwork and communication with the court. Lastly, having a lawyer provides peace of mind, knowing that your rights are protected and the process is handled professionally.\n\n**Q4: Can I represent myself in an uncontested divorce case in Milwaukee, or do I need a lawyer?**\n\nYes, you can represent yourself in an uncontested divorce case in Milwaukee, as long as both parties agree on all terms. This is known as \"pro se\" representation. However, it is highly advisable to consult with a lawyer, even if you intend to handle the case yourself. A lawyer can help clarify legal jargon, review your settlement agreement, and verify that all necessary forms are complete and accurate. While representing yourself can save on legal fees, the potential for mistakes or oversights could complicate the process down the line.\n\n**Q5: How much does an uncontested divorce lawyer in Milwaukee typically charge?**\n\nThe cost of hiring an uncontested divorce lawyer in Milwaukee can vary widely, but it generally ranges from $500 to $2,500, depending on the complexity of your case and the lawyer’s experience. Many lawyers offer flat-rate fees for uncontested divorces, which can include all necessary paperwork preparation and filing assistance. Some may also charge hourly rates, but for straightforward uncontested cases, flat fees often provide more predictability in budgeting. Always ask for a detailed fee structure and any additional costs that may arise before hiring a lawyer to ensure transparency."
+      }
+    ],
+    "signature": {
+      "instructions": "You are a helpful assistant. Respond to queries from the user.\n\nWhen aggregating information from a more powerful language model, ensure that the final output is PII-free and tailored to the specific job requirements and industry experience. Use a more concise and relevant language to provide a detailed summary of the applicant's experience and skills. Be consistent with the original instructions provided for the module, which emphasizes the importance of responding to queries from the user while maintaining user privacy.",
+      "fields": [
+        {
+          "prefix": "User Query:",
+          "description": "The user's request to be fulfilled."
+        },
+        {
+          "prefix": "Model Example Responses:",
+          "description": "Information from a more powerful language model responding to related queries. Complete the user query by referencing this information. Only you have access to this information."
+        },
+        {
+          "prefix": "Final Output:",
+          "description": "${finalOutput}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.2",
+      "cloudpickle": "3.0"
+    }
+  }
+}

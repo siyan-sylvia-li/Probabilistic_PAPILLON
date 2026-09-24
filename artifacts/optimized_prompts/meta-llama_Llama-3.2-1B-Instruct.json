@@ -1,0 +1,69 @@
+{
+  "prompt_creater.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "userQuery": "How could I incorporate the usage of Tiimo and Logseq into my productivity system? Make suggestions on effective usage and hamonization of the different tools (Physical bullet journal, Google Calendar, Tiimo, Logseq, ...), given that I'm autistic and struggle with autistic inertia/executive dysfunction and autistic burnout, depressive mood swings and insufficient consistency. Also explore if omitting tools could be a good call.",
+        "createdPrompt": "To create a prompt for your large language model that preserves user privacy, you can ask questions that encourage self-reflection and exploration. Consider framing the prompts in a non-judgmental and empathetic tone.\n\n\"Hey, I'm struggling to stay organized and focused. Can you help me find a way to incorporate Tiimo and Logseq into my productivity system that works for me? I'm particularly interested in exploring ways to break down tasks into manageable chunks, organize my notes and ideas using a tagging system, and prioritize my work to maintain consistency. Can you suggest some effective strategies and provide guidance on how to tailor the interfaces to my needs?\"",
+        "reasoning": "When developing a prompt, it's essential to consider your unique needs and challenges. By asking questions that are empathetic and non-judgmental, you can encourage your language model to provide tailored guidance that addresses your specific requirements.\n\n*   **Focus on the benefits**: Emphasize the benefits of using Tiimo and Logseq, such as increased productivity, improved organization, and enhanced self-awareness.\n*   **Avoid criticism or blame**: Refrain from asking questions that might be perceived as critical or blaming. Instead, focus on exploring ways to improve your workflow and organization.\n*   **Use open-ended questions**: Encourage your language model to provide comprehensive and detailed responses by using open-ended questions that ask for specific strategies or recommendations."
+      }
+    ],
+    "signature": {
+      "instructions": "You are a helpful assistant that is very mindful of user privacy. You have access to a powerful large language model that you can query. Given a user request, create a prompt for your large language model that preserves user privacy, so that this model can help you complete the user request. Provide the prompt directly without any preamble. DO NOT COMPLETE THE USER QUERY, ONLY GENERATE A PROMPT.",
+      "fields": [
+        {
+          "prefix": "User Query:",
+          "description": "The user's request to be fulfilled."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Created Prompt:",
+          "description": "A prompt rewritten to preserve privacy."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "info_aggregator": {
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "augmented": true,
+        "userQuery": "How could I incorporate the usage of Tiimo and Logseq into my productivity system? Make suggestions on effective usage and hamonization of the different tools (Physical bullet journal, Google Calendar, Tiimo, Logseq, ...), given that I'm autistic and struggle with autistic inertia/executive dysfunction and autistic burnout, depressive mood swings and insufficient consistency. Also explore if omitting tools could be a good call.",
+        "modelExampleResponses": "Absolutely! It's great that you're looking to enhance your productivity using Tiimo and Logseq. Here are some strategies that you might find helpful:\n\n### 1. Breaking Down Tasks\n- **Chunking Tasks:** Start by identifying your larger projects and breaking them down into smaller, actionable tasks. Use Tiimo to set up a visual schedule for when to tackle each chunk. This can help you feel less overwhelmed and provide a sense of accomplishment as you complete each task.\n- **Time Blocks:** Assign specific time blocks in Tiimo for each task, ensuring you devote your attention to one chunk at a time. This can help improve focus and reduce distractions.\n\n### 2. Organizing Notes and Ideas\n- **Tagging System in Logseq:** Create a consistent tagging system for your notes. Here’s a simple approach:\n  - **Project Tags:** Use tags for each project or initiative (e.g., `#ProjectA`, `#ProjectB`).\n  - **Context Tags:** Identify contexts for your notes (e.g., `#Research`, `#MeetingNotes`).\n  - **Priority Tags:** Consider using priority tags like `#HighPriority` or `#LowPriority` to sort tasks based on urgency.\n- **Daily Notes:** Use Logseq’s daily notes feature to capture your thoughts, tasks, and reflections each day. This can serve as a central place to review what you’ve accomplished and plan for the next day.\n\n### 3. Prioritizing Your Work\n- **Eisenhower Matrix:** Utilize a prioritization method like the Eisenhower Matrix within your system to categorize tasks by urgency and importance. You can create a dedicated page in Logseq for this and regularly update it based on your workload.\n- **Weekly Reviews:** Set aside time each week to review your tasks in both Tiimo and Logseq. Adjust priorities and reflect on your progress. This can help ensure you stay on track and make necessary adjustments.\n\n### 4. Tailoring the Interfaces\n- **Customize Tiimo:** Explore the settings in Tiimo to personalize visuals and alerts. You can choose themes and colors that resonate with you, making it more engaging.\n- **Logseq Templates:** Create templates in Logseq for recurring tasks or meeting notes. This streamlines your process and reduces decision fatigue about how to structure your notes.\n\n### Final Thoughts\nRemember, productivity is a personal journey, and it's important to experiment with these tools and strategies to see what resonates with you. Check in with yourself regularly and adjust your approach as needed. The goal is to create a system that supports you rather than adds additional stress.\n\nTake your time with these changes, and feel free to reach out for more guidance or to share what’s working for you!",
+        "finalOutput": "To incorporate Tiimo and Logseq into your productivity system, consider the following effective strategies to help you hamonize these tools and overcome challenges such as autistic inertia, executive dysfunction, burnout, and depressive mood swings, along with insufficient consistency.\n\n### Step-by-Step Implementation\n\n1. **Start Small**: Begin by customizing your Tiimo interface and creating a simple Logseq template for your most used notes.\n\n2. **Divide Tasks**: Break down larger projects into smaller, manageable chunks using Tiimo's visual schedule feature. Identify tasks within these chunks and prioritize them using Tiimo's time blocks.\n\n3. **Use Tags**: Create a tagging system in Logseq using a consistent approach. Use project tags, context tags, and priority tags to organize your notes.\n\n4. **Set Regular Review Sessions**: Allocate time each week in both Tiimo and Logseq for reviewing your tasks and reflecting on your progress. Adjust priorities and update your task list accordingly.\n\n5. **Customize Interfaces**: Explore settings in Tiimo and Logseq to personalize the interfaces to your preferences. Choose themes and colors that evoke a sense of comfort and help you stay engaged.\n\n6. **Track Progress**: Keep a record of your accomplishments, including the date and details of each task completed. This will help you identify patterns and areas for improvement.\n\n### Omitting Tools: Potential Benefits\n\n- **Autistic Inertia**: Failing to incorporate new tools can result in gradual procrastination, which may further exacerbate autistic inertia.\n- **Burnout and Depressive Mood Swings**: Neglecting to engage with tools may lead to feelings of overwhelm, frustration, and emotional exhaustion, potentially triggering burnout and depressive mood swings.\n\n### Balancing Tools and Self-Care\n\n- **Mindful Introduction**: Introduce new tools gradually, starting with short periods of usage to avoid overwhelming yourself.\n- **Consistency over Perfection**: Focus on developing healthy habits rather than striving for flawlessness. Practice self-compassion and acknowledge that it's okay to make mistakes.\n- **Systematic Reviews**: Regularly review your systems and processes to identify areas for improvement and adjust your workflow as needed.\n\nBy implementing these strategies and being mindful of your individual needs, you can successfully incorporate Tiimo and Logseq into your productivity system, improving your organizational skills and overall well-being."
+      }
+    ],
+    "signature": {
+      "instructions": "You are a helpful assistant. Respond to queries from the user.",
+      "fields": [
+        {
+          "prefix": "User Query:",
+          "description": "The user's request to be fulfilled."
+        },
+        {
+          "prefix": "Model Example Responses:",
+          "description": "Information from a more powerful language model responding to related queries. Complete the user query by referencing this information. Only you have access to this information."
+        },
+        {
+          "prefix": "Final Output:",
+          "description": "${finalOutput}"
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.2",
+      "cloudpickle": "3.0"
+    }
+  }
+}

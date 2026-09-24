@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prob_papillon"
+version = "0.1.0"
+description = "Probabilistic privacy risk estimation for privacy-conscious LLM query delegation"
+requires-python = ">=3.10"
+dependencies = [
+    "dspy==3.1.2",
+    "numpy",
+    "pandas",
+    "python-dotenv",
+    "requests",
+    "scipy",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+data = ["datasets", "gliner"]
+serve = ["vllm"]
+
+[tool.setuptools]
+packages = ["prob_papillon"]
